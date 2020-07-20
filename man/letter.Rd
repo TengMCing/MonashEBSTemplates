@@ -6,6 +6,7 @@
 \alias{workingpaper}
 \alias{report}
 \alias{researchplan}
+\alias{draftofworkinprogress}
 \alias{memo}
 \alias{slides}
 \title{Output formats for Monash EBS documents}
@@ -19,6 +20,8 @@ workingpaper(...)
 report(...)
 
 researchplan(...)
+
+draftofworkinprogress(...)
 
 memo(...)
 

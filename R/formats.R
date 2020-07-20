@@ -61,6 +61,16 @@ researchplan <- function(...) {
 
 #' @rdname letter
 #' @export
+draftofworkinprogress <- function(...) {
+  template <- system.file("rmarkdown/templates/DraftOfWorkInProgress/resources/monashrp.tex",
+                          package="MonashEBSTemplates")
+  bookdown::pdf_document2(...,
+                          template = template
+  )
+}
+
+#' @rdname letter
+#' @export
 memo <- function(...) {
   template <- system.file("rmarkdown/templates/Memo/resources/monashmemo.tex",
                           package="MonashEBSTemplates")
